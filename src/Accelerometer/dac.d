@@ -1,0 +1,12 @@
+.\dac.o: DAC.c
+.\dac.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\dac.o: ..\inc/hw_ssi.h
+.\dac.o: ..\inc/hw_memmap.h
+.\dac.o: ..\inc/hw_sysctl.h
+.\dac.o: ..\inc/hw_types.h
+.\dac.o: ..\driverlib/debug.h
+.\dac.o: ..\driverlib/gpio.h
+.\dac.o: ..\driverlib/ssi.h
+.\dac.o: ..\driverlib/sysctl.h
+.\dac.o: DAC.h
+.\dac.o: C:\Keil\ARM\Inc\Luminary\lm3s1968.h

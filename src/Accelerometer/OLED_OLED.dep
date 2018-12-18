@@ -1,0 +1,78 @@
+Dependencies for Project 'OLED', Target 'OLED': (DO NOT MODIFY !)
+F (.\OLEDTestMain.c)(0x5357A215)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-o .\oledtestmain.o --omf_browse .\oledtestmain.crf --depend .\oledtestmain.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C87C24)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C87C24)
+I (Output.h)(0x4E372092)
+I (Pll.h)(0x4F457D4C)
+I (C:\Keil\ARM\Inc\Luminary\lm3s1968.h)(0x520A6C82)
+I (sysctl.h)(0x530C7A2B)
+I (Dac.h)(0x535799C6)
+I (LSM9DSO.h)(0x53579E75)
+I (fixed.h)(0x52F0F39B)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C87C24)
+F (.\Output.c)(0x4E372084)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-o .\output.o --omf_browse .\output.crf --depend .\output.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C87C24)
+I (rit128x96x4.h)(0x4C5202A2)
+I (Output.h)(0x4E372092)
+F (.\rit128x96x4.c)(0x531FE7F2)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-o .\rit128x96x4.o --omf_browse .\rit128x96x4.crf --depend .\rit128x96x4.d)
+I (..\inc/hw_ssi.h)(0x4C61A20C)
+I (..\inc/hw_memmap.h)(0x4C61A20C)
+I (..\inc/hw_sysctl.h)(0x5320DA0B)
+I (..\inc/hw_types.h)(0x5319243B)
+I (..\driverlib/debug.h)(0x4C61A20A)
+I (..\driverlib/gpio.h)(0x53215330)
+I (..\driverlib/ssi.h)(0x532802AD)
+I (..\driverlib/sysctl.h)(0x530C7A2B)
+I (rit128x96x4.h)(0x4C5202A2)
+F (.\Startup.s)(0x4E53D434)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\DAC.c)(0x533938B3)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-o .\dac.o --omf_browse .\dac.crf --depend .\dac.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C87C24)
+I (..\inc/hw_ssi.h)(0x4C61A20C)
+I (..\inc/hw_memmap.h)(0x4C61A20C)
+I (..\inc/hw_sysctl.h)(0x5320DA0B)
+I (..\inc/hw_types.h)(0x5319243B)
+I (..\driverlib/debug.h)(0x4C61A20A)
+I (..\driverlib/gpio.h)(0x53215330)
+I (..\driverlib/ssi.h)(0x532802AD)
+I (..\driverlib/sysctl.h)(0x530C7A2B)
+I (DAC.h)(0x535799C6)
+I (C:\Keil\ARM\Inc\Luminary\lm3s1968.h)(0x520A6C82)
+F (.\SysTick.c)(0x5301852A)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-o .\systick.o --omf_browse .\systick.crf --depend .\systick.d)
+F (.\PLL.c)(0x4F457DA4)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-o .\pll.o --omf_browse .\pll.crf --depend .\pll.d)
+F (.\uartstdio.h)(0x5321588F)()
+F (.\uartstdio.c)(0x53215806)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-o .\uartstdio.o --omf_browse .\uartstdio.crf --depend .\uartstdio.d)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C87C24)
+I (..\inc/hw_ints.h)(0x4C61A20C)
+I (..\inc/hw_memmap.h)(0x4C61A20C)
+I (..\inc/hw_types.h)(0x5319243B)
+I (..\inc/hw_uart.h)(0x4C61A20C)
+I (..\driverlib/debug.h)(0x4C61A20A)
+I (..\driverlib/interrupt.h)(0x4C61A20A)
+I (..\driverlib/rom.h)(0x4C61A20A)
+I (..\driverlib/rom_map.h)(0x4C61A20A)
+I (..\driverlib/sysctl.h)(0x530C7A2B)
+I (..\driverlib/uart.h)(0x4C61A20A)
+I (uartstdio.h)(0x5321588F)
+F (.\LSM9DSO.h)(0x53579E75)()
+F (.\LSM9DSO.c)(0x53579EC1)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-o .\lsm9dso.o --omf_browse .\lsm9dso.crf --depend .\lsm9dso.d)
+I (LSM9DSO.h)(0x53579E75)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C87C24)
+I (..\inc/hw_ssi.h)(0x4C61A20C)
+I (..\inc/hw_memmap.h)(0x4C61A20C)
+I (..\inc/hw_sysctl.h)(0x5320DA0B)
+I (..\inc/hw_types.h)(0x5319243B)
+I (..\driverlib/debug.h)(0x4C61A20A)
+I (..\driverlib/gpio.h)(0x53215330)
+I (..\driverlib/ssi.h)(0x532802AD)
+I (..\driverlib/sysctl.h)(0x530C7A2B)
+I (DAC.h)(0x535799C6)
+I (C:\Keil\ARM\Inc\Luminary\lm3s1968.h)(0x520A6C82)
+I (fixed.h)(0x52F0F39B)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C87C24)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C87C24)
+F (.\fixed.c)(0x535793F9)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-o .\fixed.o --omf_browse .\fixed.crf --depend .\fixed.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C87C24)
+I (fixed.h)(0x52F0F39B)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C87C24)
+I (Output.h)(0x4E372092)
+F (..\driverlib\rvmdk\driverlib.lib)(0x4C61A20A)()

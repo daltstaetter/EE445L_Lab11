@@ -1,0 +1,16 @@
+.\lsm9dso.o: LSM9DSO.c
+.\lsm9dso.o: LSM9DSO.h
+.\lsm9dso.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\lsm9dso.o: ..\inc/hw_ssi.h
+.\lsm9dso.o: ..\inc/hw_memmap.h
+.\lsm9dso.o: ..\inc/hw_sysctl.h
+.\lsm9dso.o: ..\inc/hw_types.h
+.\lsm9dso.o: ..\driverlib/debug.h
+.\lsm9dso.o: ..\driverlib/gpio.h
+.\lsm9dso.o: ..\driverlib/ssi.h
+.\lsm9dso.o: ..\driverlib/sysctl.h
+.\lsm9dso.o: DAC.h
+.\lsm9dso.o: C:\Keil\ARM\Inc\Luminary\lm3s1968.h
+.\lsm9dso.o: fixed.h
+.\lsm9dso.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\lsm9dso.o: C:\Keil\ARM\ARMCC\bin\..\include\math.h
